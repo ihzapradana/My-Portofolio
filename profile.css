@@ -8,6 +8,9 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,14 +68,18 @@ ul li a:hover{
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 25px;
+}
+h1{
+    margin-bottom: 10px;
 }
 
 .left-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    width: 400px;
+    /* position: fixed; */
+    width: 500px;
     height: 100vh;
     background-color: #6495ED;
 }
@@ -91,4 +98,12 @@ ul li a:hover{
 .contact-btn:hover{
     background-color: #06ec06;
     color: white;
+}
+.container{
+    display: flex;
+    
+}
+.content{
+    padding-top: 100px;
+    padding-left: 10px;
 }
